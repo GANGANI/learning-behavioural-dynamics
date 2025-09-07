@@ -113,15 +113,15 @@ Fig. 4. Model Architecture
 
 | Model | Input Representation | Accuracy | F1-Score |
 |-------|----------------------|----------|----------|
-| RNN   | Action + Pause       | 83.85%   | 83.83%   |
-| RNN   | Content              | 60.51%   | 60.44%   |
-| RNN   | Combined             | 83.36%   | 83.36%   |
-| LSTM  | Action + Pause       | **91.11%** | **91.11%** |
-| LSTM  | Content              | 90.30%   | 90.30%   |
-| LSTM  | Combined             | 88.65%   | 88.65%   |
-| GRU   | Action + Pause       | 90.06%   | 90.06%   |
-| GRU   | Content              | 88.90%   | 88.90%   |
-| GRU   | Combined             | 86.67%   | 86.67%   |
+| RNN   | [Action + Pause](results/rnn/rnn-action.ipynb)       | 83.85%   | 83.83%   |
+|    | [Content](results/rnn/rnn-content.ipynb)              | 60.51%   | 60.44%   |
+|    | [Combined](results/rnn/rnn.ipynb)             | 83.36%   | 83.36%   |
+| LSTM  | [Action + Pause](results/lstm/lstm-action.ipynb)       | **91.11%** | **91.11%** |
+|   | [Content](results/lstm/lstm-content.ipynb)              | 90.30%   | 90.30%   |
+|   | [Combined](results/lstm/lstm.ipynb)             | 88.65%   | 88.65%   |
+| GRU   | [Action + Pause](results/gru/gru-action.ipynb)       | 90.06%   | 90.06%   |
+|    | [Content](results/gru/gru-content.ipynb)              | 88.90%   | 88.90%   |
+|    | [Combined](results/gru/gru.ipynb)             | 86.67%   | 86.67%   |
 
 <p align="center">
   <img src="figures/RNN_LSTM_GRU.jpg" alt="Confusion Matrices" width="700">
