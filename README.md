@@ -115,7 +115,7 @@ Fig. 4. Model Architecture
 |-------|----------------------|----------|----------|
 | RNN   | [Action + Pause](results/rnn/rnn-action.ipynb)       | [83.85%](results/rnn/rnn-action.ipynb)   | [83.83%](results/rnn/rnn-action.ipynb)   |
 |    | [Content](results/rnn/rnn-content.ipynb)              | [60.51%](results/rnn/rnn-content.ipynb)   | [60.44%](results/rnn/rnn-content.ipynb)   |
-|    | [Combined](results/rnn/rnn.ipynb)             | [83.36%](results/rnn/rnn.ipynb)     | 83.36%](results/rnn/rnn.ipynb) |
+|    | [Combined](results/rnn/rnn.ipynb)             | [83.36%](results/rnn/rnn.ipynb)     | [83.36%](results/rnn/rnn.ipynb) |
 | LSTM  | [Action + Pause](results/lstm/lstm-action.ipynb)       | [**91.11%**](results/lstm/lstm-action.ipynb) | [**91.11%**](results/lstm/lstm-action.ipynb) |
 |   | [Content](results/lstm/lstm-content.ipynb)              | [90.30%](results/lstm/lstm-content.ipynb)   | [90.30%](results/lstm/lstm-content.ipynb)   |
 |   | [Combined](results/lstm/lstm.ipynb)             | [88.65%](results/lstm/lstm.ipynb)   | [88.65%](results/lstm/lstm.ipynb)   |
